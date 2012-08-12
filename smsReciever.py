@@ -1,15 +1,15 @@
+#you can play around with this, I just wrote it to make the examples self-containing.
 
 import SMSTerminal
 import android
 
 
-ROOT = "root"
-PASS = "sl4a"
+ROOT = "rootword"
+PASS = "password"
 
 droid = android.Android()
 
 sms_tmnl = SMSTerminal.SMSTerminal( ROOT, PASS )
-
 
 try:
     recent_sms = droid.smsGetMessages(1).result[0]

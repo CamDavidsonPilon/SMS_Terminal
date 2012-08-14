@@ -6,9 +6,9 @@ what can be accomplished.
 
 TL;DR
 ------
-Basically, send you Android device SMS messages containing commands and your device will run said commands. Useful if
-your phone is not on you and you hate that feeling. Ex:
-If I text (from my friends phone) my phone 
+Basically, send your Android device SMS messages containing commands and your device will run said commands. Useful if
+your phone is not on you (it is charging, lost etc.) and you hate that feeling. Ex:
+If I text (from my friend's phone) my Android 
 
     root -h
     

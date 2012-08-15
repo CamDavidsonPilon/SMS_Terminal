@@ -30,6 +30,13 @@ First, you need two apps: [SL4A](http://code.google.com/p/android-scripting/) an
 
 Install SL4A and the Python package.
 
+In the script that initalizes your SMSTerminal object, smsReciever.py, specify a *root word* and a *password*. The root word, *root* in my 
+example above, keeps just anyone from running commands. It can shared with friends as you wish. If things get unruley, just
+change the root word.
+
+The password is for more sensitive commands, like returning all unread msgs.
+
+
 SMSTerminal.py contains some default commands like the ones above, and you can create your own. The main structure should look like:
 
     def _x(self, [optinal args], [optinal defaults] )
@@ -54,9 +61,6 @@ For example:
         
         
         
-Easy. Thirdly, edit smsReceiver.py to include a *root word* and *password*. The root word is the word that your phone will
-recognize is meant for it, eg: "root" in my examples above. Password is used for more sensitive commands like retrieving location
-or unread messages. 
 
 Finally, create a Tasker profile to run whenever a text is received. The task should be to run the script smsReceiver.py (which
 should be in the same folder as SMSTerminal.py). 

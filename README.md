@@ -23,7 +23,7 @@ I receive
 
 which I can use to send more commands to my phone. 
 
-How Does it Work?
+Installation Guide
 ----------------
 
 First, you need two apps: [SL4A](http://code.google.com/p/android-scripting/) and [Tasker](http://tasker.dinglisch.net/). Tasker is paid, yes, but if you have an Android you're gunna want Tasker. 

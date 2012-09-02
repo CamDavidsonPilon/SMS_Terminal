@@ -30,7 +30,7 @@ First, you need two apps: [SL4A](http://code.google.com/p/android-scripting/) an
 
 Install SL4A and the Python package.
 
-In the script that initalizes your SMSTerminal object, smsReciever.py, specify a *root word* and a *password*. The root word, *root* in my 
+In the script that initalizes your SMSTerminal object, called receiver_script.py above, specify a *root word* and a *password*. The root word, *root* in my 
 example above, keeps just anyone from running commands. It can shared with friends as you wish. If things get unruley, just
 change the root word.
 
@@ -62,7 +62,7 @@ For example:
         
         
 
-Finally, create a Tasker profile to run whenever a text is received. The task should be to run the script smsReceiver.py (which
+Finally, create a Tasker profile to run whenever a text is received. The task should be to run the script reciever_script.py (which
 should be in the same folder as SMSTerminal.py). 
 
 That should be it!
